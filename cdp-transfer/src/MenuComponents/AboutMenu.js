@@ -41,7 +41,7 @@ export default function AboutMenu() {
         getContentAnchorEl={this}
       >
         <MenuItem onClick={()=> { handleClose('about') }}>...our project</MenuItem>
-        <MenuItem onClick={()=> { handleClose('publicity') }}>...recent events</MenuItem>
+        <MenuItem onClick={()=> { handleClose('publicity') }}>...events and press</MenuItem>
         <MenuItem onClick={()=> { handleClose('meet-the-team') }}>...our team</MenuItem>
       </Menu>
     </React.Fragment>

@@ -50,6 +50,7 @@ const HowItWorks = {
       title: "Connecting CDP to Your Local City Council",
       subtitle:"Available for over 8,000 cities across the USA",
       body: "CDP was designed to plug into most city council public resources to make searching the data simpler. In order to get access for your city, visit the project’s GitHub to learn more about setting up a new instance of CDP.",
+      cardActionText: "Explore Documentation",
       cardActionDestination: "https://github.com/CouncilDataProject",
       imageSrc:comp1
     },
@@ -65,13 +66,17 @@ const HowItWorks = {
       title: "Provide Feedback",
       subtitle:"A Process of Iterative Improvement",
       body: "CDP is not finished. We want to improve its capabilities to ensure its usefulness for years to come. A huge part of that is feedback from the community. If you want to help us, let us know what to work on next!",
-      imageSrc:comp1
+      imageSrc:comp1,
+      cardActionText: "Report an Issue or Request a Feature",
+      cardActionDestination: "https://github.com/CouncilDataProject/cdp-instance/issues"
     },
     {
       title: "Get Involved",
       subtitle:"Grow Your Skills as a CDP Volunteer",
       body: "As an open-source, non-profit project, CDP can always use additional support from volunteers. CDP currently has needs for developers, designers, researchers, marketers, and any other role you think could add value. CDP loves working with people that are passionate about improving citizen access to information, so don’t hesitate to reach out!",
-      imageSrc:comp1
+      imageSrc:comp1,
+      cardActionText: "Reach out on DemocracyLab",
+      cardActionDestination: "https://democracylab.org/index/?section=AboutProject&id=145"
     }
   ]
 }

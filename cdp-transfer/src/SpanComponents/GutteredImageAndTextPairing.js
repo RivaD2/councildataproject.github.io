@@ -55,12 +55,15 @@ function renderText(title, subtitle, body) {
 }
 const styles = {
   button: {
-    color: 'white'
+    fontWeight: "bold",
+    fontSize: 14,
+    color: ColorPalette.baseTeal
   },
   card: {
     margin: 12,
+    marginBottom: 24,
     display: 'flex',
-    backgroundColor: ColorPalette.basePageColor
+    backgroundColor: ColorPalette.highlightSectionColor,
   },
   textContainer: {
     display: 'flex',
@@ -69,15 +72,15 @@ const styles = {
   },
   title: {
     marginBottom: 24,
-    color: "white",
+    color: ColorPalette.titleTextColor,
   },
   subtitle: {
-    marginBottom: 12, 
-    color: "white",
+    marginBottom: 12,
+    color: ColorPalette.subtitleTextColor,
   },
   body: {
-    marginBottom: 24, 
-    color: "white"
+    marginBottom: 24,
+    color: ColorPalette.bodyTextColor
   },
   image: {
     margin: 28,

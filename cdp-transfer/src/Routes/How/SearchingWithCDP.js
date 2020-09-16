@@ -13,16 +13,19 @@ export default function SearchingWithCDP() {
         let avatar = contentObject.imageSrc || placeholder;
         let directionality = (index % 2 === 0); // even lines will have text on the right, image on the left. odd lines vice versa.
         return (
-          <div style={{ width: "80%", minHeight: "350" }}>
+          <div style={{ width: "80%", minHeight: "350" }}
+          key={`SearchingWithCDP${index}`}>
             <GutteredImageAndTextPairing
               textRight={directionality}
               title={contentObject.title}
               subtitle={contentObject.subtitle}
               body={contentObject.body}
               imageSource={avatar}
+              cardActionText={contentObject.cardActionText}
+              cardActionDestination={contentObject.cardActionDestination}
             />
           </div>
-          
+
         )
       })}
     </div>
@@ -34,13 +37,13 @@ const styles={
     marginTop: 48,
     marginBottom: 24,
     maxWidth: "50%",
-    color: "white",
+    color: ColorPalette.titleTextColor,
   },
   subtitle: {
     marginTop: 24,
     marginBottom: 48,
     maxWidth: "80%",
-    color: "white",
+    color: ColorPalette.subtitleTextColor,
   },
   container: {
     backgroundColor: ColorPalette.basePageColor,

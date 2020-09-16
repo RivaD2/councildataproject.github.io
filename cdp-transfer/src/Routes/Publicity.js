@@ -34,13 +34,13 @@ const styles={
     marginTop: 48,
     marginBottom: 24,
     maxWidth: "50%",
-    color: "white",
+    color: ColorPalette.titleTextColor,
   },
   subtitle: {
     marginTop: 24,
     marginBottom: 48,
     maxWidth: "80%",
-    color: "white",
+    color: ColorPalette.subtitleTextColor,
   },
   container: {
     backgroundColor: ColorPalette.basePageColor,

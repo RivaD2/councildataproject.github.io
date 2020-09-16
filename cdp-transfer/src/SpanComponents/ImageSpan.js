@@ -17,14 +17,14 @@ export default function ImageSpan(props) {
     },
     subtitle: {
       marginTop: 24,
-      marginBottom: 24, 
+      marginBottom: 24,
       maxWidth: "90%",
       color: "white",
       fontWeight:500
     },
     body: {
       marginTop: 24,
-      marginBottom: bodyBottomMargin, 
+      marginBottom: bodyBottomMargin,
       maxWidth: "45%",
       color: "white"
     },
@@ -63,7 +63,7 @@ export default function ImageSpan(props) {
     <div style={containerStyle}>
       <div style={styles.gradientStyle} >
         <Typography align="center" variant="h3" style={styles.header}>{props.title}</Typography>
-          {props.subtitle && 
+          {props.subtitle &&
           <Typography align="center" variant="h4"  style={styles.subtitle}>{props.subtitle}</Typography>
           }
           <Typography align="center" variant="h6" style={styles.body}>{props.bodyText}</Typography>
