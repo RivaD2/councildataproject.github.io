@@ -1,11 +1,12 @@
 import democracylab1 from '../Images/Publicity/democracy_lab1.jpg'
+import democracylab2 from '../Images/Publicity/democracy_lab2.png'
 const StaticPublicity = {
   stories: [
     {
       title: "Council Data Project Applies Tech to Local Government",
       blurb: "At DemocracyLab's St. Hack Trick's Day, the CDP team worked on automatic thumbnail generation, speaker turn classification, and more!",
-      associatedImage: democracylab1,
-      cardActionDestination: 'https://democracylab.ghost.io/council-data-project-demystifies-city-governments/'
+      associatedImage: democracylab2,
+      cardActionDestination: 'https://blog.democracylab.org/you-can-help-local-governments-improve-transparency/'
     },
     {
       title: "Council Data Project Demystifies City Governments",

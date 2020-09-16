@@ -8,7 +8,7 @@ import placeholder from '../Assets/Images/placeholder-avatar.jpg'
 export default function Publicity() {
   return (
     <div style={styles.container}>
-      <Typography variant="h2" style={styles.title}>CDP's Public Events</Typography>
+      <Typography variant="h2" style={styles.title}>CDP Press</Typography>
       {StaticPublicity.stories.map((contentObject, index) => {
         let avatar = contentObject.associatedImage || placeholder;
         let directionality = (index % 2 === 0); // even lines will have text on the right, image on the left. odd lines vice versa.
@@ -22,7 +22,7 @@ export default function Publicity() {
               cardActionDestination={contentObject.cardActionDestination}
             />
           </div>
-          
+
         )
       })}
     </div>
